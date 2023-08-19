@@ -20,14 +20,15 @@
 #     if c == 3:
 #         break
 #     print(c)
-
-lista = ['a', 'b', 'c', 'd', 'e']
-lista.append(10)
-for letras in lista:
-    if letras == 3:
-        print(letras)
-
-
+#
+# lista = ['a', 'b', 'c', 'd', 'e']
+#
+# for posição, valor in enumerate(lista):
+#     if valor == 'd':
+#         lista[posição] = 'olá'
+# print(lista)
+#
+#
 
 
 
