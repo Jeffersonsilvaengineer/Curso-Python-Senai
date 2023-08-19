@@ -21,4 +21,11 @@ Na opção 3: receber o salário de um funcionário e o número de meses de trab
 
 Na opção 4: sair do programa.'''
 
+print('-'*30)
+print("{:^30}".format("RECURSOS HUMANOS SENAI"))
+print('-'*30)
+
+while True:
+    opção = int(input('ESCOLHA UMA OPÇÃO: \n1. Novo salário \n2. Férias \n3. Décimo terceiro \n4. Sair\n---------->: '))
+
 
