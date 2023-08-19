@@ -1,4 +1,4 @@
-'''Faça um programa que apresente o menu de opções a seguir, que permita ao usuárioescolher a opção desejada,
+'''Faça um programa que apresente o menu de opções a seguir, que permita ao usuário escolher a opção desejada,
 receba os dados necessários para executar a operação e mostre o resultado. Verificar a possibilidade de opção inválida
  e não se preocupar com as restrições, como salário inválido.
 Menu de opções:
@@ -18,4 +18,7 @@ equivalem ao seu salário acrescido de l/2.
 Na opção 3: receber o salário de um funcionário e o número de meses de trabalho na empresa, no máximo 12, calcular
  e mostrar o valor do décimo terceiro. Sabe-se que o décimo terceiro equivale ao seu salário multiplicado pelo número
  de meses de trabalho dividido por 12.
+
 Na opção 4: sair do programa.'''
+
+
