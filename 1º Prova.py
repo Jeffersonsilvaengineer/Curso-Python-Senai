@@ -21,11 +21,41 @@ Na opção 3: receber o salário de um funcionário e o número de meses de trab
 
 Na opção 4: sair do programa.'''
 
+from time import sleep
 print('-'*30)
+
 print("{:^30}".format("RECURSOS HUMANOS SENAI"))
+
 print('-'*30)
 
 while True:
-    opção = int(input('ESCOLHA UMA OPÇÃO: \n1. Novo salário \n2. Férias \n3. Décimo terceiro \n4. Sair\n---------->: '))
+    opção = int(input('MENU DE OPÇÕES:\n1. Novo salário\n2. Férias\n3. Décimo terceiro\n4. Sair\nESCOLHA UMA OPÇÃO:-->:'))
+    while opção not in (1, 2, 3, 4):
+        opção = int(input('Opção Inválida!!\n1. Novo salário\n2. Férias \n3. Décimo terceiro\n4. Sair\nESCOLHA UMA OPÇÃO:-->:'))
+    if opção == 1:
+        salário = float(input('Digite seu salário: '))
+        if salário <= 350:
+            print(f'Você receberá 15% de aumento, seu novo salário será de R${salário + (salário*(15/100))} reais!')
+        elif 350 <= salário <= 600:
+            print(f'Você receberá 10% de aumento, seu novo salário será de R${salário + (salário*(10/100))} reais!')
+        elif salário > 600:
+            print(f'Você receberá 5% de aumento, seu novo salário será de R${salário + (salário * (5/100))} reais!')
+    elif opção == 2:
+        salário = float(input('Digite seu salário: '))
+        print(f'Parabéns! chegou a hora de receber suas férias no valor de {salário + (salário * (50/100))}')
+    elif opção == 3:
+        salário = float(input('Digite seu salário: '))
+        meses = int(input('Quantos mesês você trabalhou este ano: '))
+        while not 1 <= meses <= 12:
+            meses = int(input('Resposta inválida! escolha um valor entre 1 e 12!: '))
+        print(f'Você trabalhou {meses} meses e receberá R${(salário/12)*meses + salário} reais de décimo terceiro!')
+    else:
+        break
+print('FIM!')
+
+
+
+
+
 
 
