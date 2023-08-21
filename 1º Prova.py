@@ -44,7 +44,7 @@ while True:
         meses = int(input('Quantos mesês você trabalhou este ano: '))
         while not 1 <= meses <= 12:
             meses = int(input('Resposta inválida! escolha um valor entre 1 e 12!: '))
-        print(f'Você trabalhou {meses} meses e receberá R${(salário/12)*meses + salário} reais de décimo terceiro!')
+        print(f'Você trabalhou {meses} meses e receberá R${(salário * meses) / 12} reais de décimo terceiro!')
     else:
         break
 print('FIM!')
