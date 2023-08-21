@@ -21,13 +21,9 @@ Na opção 3: receber o salário de um funcionário e o número de meses de trab
 
 Na opção 4: sair do programa.'''
 
-from time import sleep
 print('-'*30)
-
 print("{:^30}".format("RECURSOS HUMANOS SENAI"))
-
 print('-'*30)
-
 while True:
     opção = int(input('MENU DE OPÇÕES:\n1. Novo salário\n2. Férias\n3. Décimo terceiro\n4. Sair\nESCOLHA UMA OPÇÃO:-->:'))
     while opção not in (1, 2, 3, 4):
