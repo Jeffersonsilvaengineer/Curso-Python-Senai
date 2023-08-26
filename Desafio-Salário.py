@@ -1,7 +1,6 @@
 
 salario_hr = float(input('Valor hr: '))
 hrs_mes = float(input('Horas trabalhadas no mês: '))
-
 salario = (((salario_hr * 8) * 5) * 4)
 
 if hrs_mes <= 160:
