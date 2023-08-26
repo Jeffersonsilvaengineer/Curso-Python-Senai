@@ -1,7 +1,6 @@
 '''1) Uma imobiliária vende apenas terrenos retangulares. Faça um algoritmo para ler as dimensões de um
 terreno e depois exibir a área do terreno.'''
 
-
 largura = float(input('Digite a largura do terreno: '))
 comprimento = float(input('Digite o comprimento do terreno: '))
 while comprimento <= largura:
