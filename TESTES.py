@@ -29,8 +29,8 @@
 # print(lista)
 #
 #
-numeros = [1, 2, 3, 4, 5]
-letras = ['a', 'b', 'c', 'd', 'e']
+# numeros = [1, 2, 3, 4, 5]
+# letras = ['a', 'b', 'c', 'd', 'e']
 # print(type(numeros))
 # print(type(letras))
 # numeros[1] = 200
