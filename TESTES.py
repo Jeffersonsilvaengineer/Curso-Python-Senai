@@ -43,7 +43,6 @@ letras = ['a', 'b', 'c', 'd', 'e']
 #     print(f'posição:{posição} valor:{valor}')
 
 #
-#
 # if 4 in numeros:
 #     print('Tem!')
 #
