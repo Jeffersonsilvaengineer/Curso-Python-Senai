@@ -81,12 +81,25 @@
 # print(matriz)
 
 
+matriz = [{
+    "codigo": 1,
+    "nome": "Bruno",
+    "idade": 24
+},
+    {"codigo": 2,
+    "nome": "André",
+    "idade": 12
+},
 
-
-
-
-
-
+    {"codigo": 3,
+    "nome": "Maria",
+    "idade": 18
+}]
+for registro in matriz:
+    if 'André' in registro["nome"]:
+        registro["nome"] = 'jefferson'
+        break
+print(matriz)
 
 
 
