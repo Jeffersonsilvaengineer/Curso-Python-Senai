@@ -63,7 +63,7 @@ letras = ['a', 'b', 'c', 'd', 'e']
 
 
 
-matriz = [[1, 'bruno', 24], [2, 'sla', 12], [3, 'teste', 10]]
+# matriz = [[1, 'bruno', 24], [2, 'sla', 12], [3, 'teste', 10]]
 # solução 1
 # for linha in matriz:
 #     for posição, valor in enumerate(linha):
@@ -74,11 +74,11 @@ matriz = [[1, 'bruno', 24], [2, 'sla', 12], [3, 'teste', 10]]
 
 
 # solução 2
-for linha in matriz:
-    if 'sla' in linha:
-        linha[1] = 'Jefferson'
-        break
-print(matriz)
+# for linha in matriz:
+#     if 'sla' in linha:
+#         linha[1] = 'Jefferson'
+#         break
+# print(matriz)
 
 
 
