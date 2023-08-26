@@ -47,7 +47,8 @@ while True:
         print(f'Você trabalhou {meses} meses e receberá R${(salário * meses)/12:.2f} reais de décimo terceiro!')
     else:
         break
-print('FIM!')
+print('---FIM!---')
+
 
 
 
