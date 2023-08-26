@@ -31,20 +31,20 @@ while True:
     if opção == 1:
         salário = float(input('Digite seu salário: '))
         if salário <= 350:
-            print(f'Você receberá 15% de aumento, seu novo salário será de R${salário + (salário*(15/100))} reais!')
+            print(f'Você receberá 15% de aumento, seu novo salário será de R${salário + (salário*(15/100)):.2f} reais!')
         elif 350 <= salário <= 600:
-            print(f'Você receberá 10% de aumento, seu novo salário será de R${salário + (salário*(10/100))} reais!')
+            print(f'Você receberá 10% de aumento, seu novo salário será de R${salário + (salário*(10/100)):.2f} reais!')
         elif salário > 600:
-            print(f'Você receberá 5% de aumento, seu novo salário será de R${salário + (salário * (5/100))} reais!')
+            print(f'Você receberá 5% de aumento, seu novo salário será de R${salário + (salário * (5/100)):.2f} reais!')
     elif opção == 2:
         salário = float(input('Digite seu salário: '))
-        print(f'Parabéns! chegou a hora de receber suas férias no valor de {salário + (salário * (50/100))}')
+        print(f'Parabéns! chegou a hora de receber suas férias no valor de {salário + (salário * (50/100)):.2f}')
     elif opção == 3:
         salário = float(input('Digite seu salário: '))
         meses = int(input('Quantos mesês você trabalhou este ano: '))
         while not 1 <= meses <= 12:
             meses = int(input('Resposta inválida! escolha um valor entre 1 e 12!: '))
-        print(f'Você trabalhou {meses} meses e receberá R${(salário * meses)/12} reais de décimo terceiro!')
+        print(f'Você trabalhou {meses} meses e receberá R${(salário * meses)/12:.2f} reais de décimo terceiro!')
     else:
         break
 print('FIM!')
