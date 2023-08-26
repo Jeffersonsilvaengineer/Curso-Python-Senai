@@ -11,11 +11,21 @@ Crie o 'menu de opções' como uma tupla;
 Crie as tarefa como dicionários; '''
 dict = {}
 while True:
-    opção = int(input('MENU DE OPÇÕES:\n1. Adcionar uma tarefa à lista\n2. Visualizar todas as tarefas na lista\n'
-'3. Marcar uma tarefa como concluida\n4. Remover uma tarefa da lista\n5. Sair\nESCOLHA UMA OPÇÃO:-->:'))
+    opção = int(input('MENU DE OPÇÕES:\n'
+                      '1. Adcionar uma tarefa à lista\n'
+                      '2. Visualizar todas as tarefas na lista\n'
+                      '3. Marcar uma tarefa como concluida\n'
+                      '4. Remover uma tarefa da lista\n'
+                      '5. Sair\n'
+                      'ESCOLHA UMA OPÇÃO:-->:'))
     while opção not in (1, 2, 3, 4, 5):
-        opção = int(input('Opção Inválida!!\n1. Adcionar uma tarefa à lista\n2. Visualizar todas as tarefas na lista\n'
-'3. Marcar uma tarefa como concluida\n4. Remover uma tarefa da lista\n5. Sair\nESCOLHA UMA OPÇÃO:-->:'))
+        opção = int(input('Opção Inválida!!\n'
+                          '1. Adcionar uma tarefa à lista\n'
+                          '2. Visualizar todas as tarefas na lista\n'
+                          '3. Marcar uma tarefa como concluida\n'
+                          '4. Remover uma tarefa da lista\n'
+                          '5. Sair\n'
+                          'ESCOLHA UMA OPÇÃO:-->:'))
     if opção == 1:
         print('Vamos adcionar nova tarefa!')
         novatarefa = dict["Nova tarefa "] = str(input('Digite a tarefa: '))
@@ -29,9 +39,6 @@ while True:
     elif opção == 5:
         break
 print(dict)
-
-
-
 
 
 
