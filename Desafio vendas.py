@@ -3,9 +3,9 @@ transação 'v' para vendas à vista e 'p' para parceladas. Faça um programa qu
 usando laço de repetição for e mostre:
 O valor total das vendas a vista!
 O valor total das vendas parceladas!'''
+
 vista = []
 parcelado = []
-
 for c in range(0, 15):
     vendas = float(input(f'Digite o valor da {c}º venda: '))
     código = input(f'Qual o código da operação da {c}º venda: ')
