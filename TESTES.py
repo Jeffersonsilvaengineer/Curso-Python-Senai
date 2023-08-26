@@ -29,6 +29,69 @@
 # print(lista)
 #
 #
+numeros = [1, 2, 3, 4, 5]
+letras = ['a', 'b', 'c', 'd', 'e']
+# print(type(numeros))
+# print(type(letras))
+# numeros[1] = 200
+# print(numeros)
+# for n in numeros:
+#     print(n)
+# for posição, valor in enumerate(numeros):
+#     if valor == 4:
+#         numeros[posição] = 12
+#     print(f'posição:{posição} valor:{valor}')
+
+#
+#
+# if 4 in numeros:
+#     print('Tem!')
+#
+#
+# numeros.append(30) # adiciona no final da lista
+# print(numeros)
+# numeros.pop(2) # remove a posição especifica
+# print(numeros)
+# numeros.insert(0, 30) # adiciona na posição especifica
+# print(numeros)
+# numeros = [1, 2, 3, 4, 5]
+# for posição, valor in enumerate(numeros):
+#     if valor == 4:
+#         numeros.insert(posição, 'palavra')
+#         break
+# print(numeros)
+
+
+
+
+matriz = [[1, 'bruno', 24], [2, 'sla', 12]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
