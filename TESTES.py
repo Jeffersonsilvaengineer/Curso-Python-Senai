@@ -80,27 +80,24 @@
 #         break
 # print(matriz)
 
+# def ola():
+#     return print('Hello World')
+# ola()
+#
+# def meunome():
+#     return 'olá, sou jefferson'
+# print(meunome())
 
 
+# def tabuada(valor):
+#     for numero in range(10):
+#         print(f'{valor} x {numero+1} = {valor*(numero+1)}')
+#
+#
+# valor = int(input('Qual a tabuada você deseja: '))
+# tabuada(valor)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def exibir_saldo(nome, conta, saldo):
+    print(nome)
+    print(conta)
+    print(saldo)
