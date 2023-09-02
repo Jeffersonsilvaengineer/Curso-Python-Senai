@@ -9,7 +9,7 @@ O programa deve oferecer as seguintes funcionalidades:
 orientações:
 Crie o 'menu de opções' como uma tupla;
 Crie as tarefa como dicionários; '''
-dict = {}
+lista = []
 while True:
     opção = int(input('MENU DE OPÇÕES:\n'
                       '1. Adcionar uma tarefa à lista\n'
