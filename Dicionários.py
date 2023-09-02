@@ -1,9 +1,9 @@
 
 #Como criar um dicionario
 dicionarios = {
-    "nome" : "bruno",
-    "idade" : 19,
-    "cidade" : "bebedouro"
+    "nome": "bruno",
+    "idade": 19,
+    "cidade": "bebedouro"
 }
 print(f'Acessando a chave "nome": {dicionarios["nome"]}')
 

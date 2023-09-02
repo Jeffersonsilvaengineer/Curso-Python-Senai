@@ -97,7 +97,50 @@
 # valor = int(input('Qual a tabuada você deseja: '))
 # tabuada(valor)
 
-def exibir_saldo(nome, conta, saldo):
-    print(nome)
-    print(conta)
-    print(saldo)
+# def exibir_saldo(nome, conta, saldo):
+#     print(nome)
+#     print(conta)
+#     print(saldo)
+
+# def tabuada(contador, n):
+#     print(n * contador)
+#     if contador < 10:
+#         tabuada(contador + 1, n)
+#
+#
+# tabuada(0, 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
